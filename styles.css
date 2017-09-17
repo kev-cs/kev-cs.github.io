@@ -6,24 +6,14 @@
  */
 #main__app___1-aOL {
   position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-size: 17.6px;
-  font-size: 1.1rem; }
-@media screen and (max-width: 63.9375em) {
+  font-size: 18px;
+  font-size: 1.125rem; }
+@media screen and (min-height: 640px) {
     #main__app___1-aOL {
-      top: 60px;
-      -webkit-transform: translateY(0%);
-              transform: translateY(0%); } }
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%); } }
 #main__header___3fd_9 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -34,8 +24,8 @@
           flex-direction: column; }
 #main__header___3fd_9 .main__header-title___Y9v9o {
     display: inline-block;
-    font-size: 44px;
-    font-size: 2.75rem;
+    font-size: 50px;
+    font-size: 3.125rem;
     text-transform: uppercase;
     -ms-flex-negative: 0;
         flex-shrink: 0; }
@@ -45,8 +35,8 @@
         font-size: 125%; }
 #main__header___3fd_9 .main__header-sub___2e48u {
     display: inline-block;
-    font-size: 27.5px;
-    font-size: 1.71875rem;
+    font-size: 30px;
+    font-size: 1.875rem;
     -ms-flex-negative: 0;
         flex-shrink: 0;
     font-style: italic;
@@ -63,32 +53,32 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 20px auto;
   min-height: 110px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  width: 1024px; }
+  width: 1024px;
+  margin: 40px auto; }
 @media screen and (min-width: 40em) and (max-width: 63.9375em) {
     #main__nav___3lTFp {
-      width: 640px; } }
+      max-width: 640px; } }
 @media screen and (max-width: 39.9375em) {
     #main__nav___3lTFp {
-      max-width: 600px;
+      max-width: 400px;
       width: 100%; } }
 .main__nav-link___374l3 {
-  height: 100%;
+  width: 110px;
   border: 1px solid transparent;
-  opacity: 1;
+  opacity: 0;
   -webkit-transition: color 0.2s, border 0.2s;
   transition: color 0.2s, border 0.2s;
   -ms-flex-preferred-size: 110px;
       flex-basis: 110px;
   margin-bottom: 10px;
   padding: 10px; }
-@media print, screen and (min-width: 40em) {
+@media screen and (max-width: 63.9375em) {
     .main__nav-link___374l3 {
-      -ms-flex-preferred-size: 125px;
-          flex-basis: 125px; } }
+      -ms-flex-preferred-size: 100px;
+          flex-basis: 100px; } }
 .main__nav-link___374l3.main__enabled___20mrj {
     color: white; }
 .main__nav-link___374l3.main__enabled___20mrj:hover {
@@ -105,7 +95,8 @@
         transition: transform 0.2s;
         transition: transform 0.2s, -webkit-transform 0.2s; }
 .main__nav-link___374l3.main__disabled___1wtjc {
-    color: rgba(128, 128, 128, .8); }
+    color: rgba(128, 128, 128, .8);
+    cursor: default; }
 .main__nav-link___374l3.main__disabled___1wtjc:hover {
       color: rgba(32, 32, 32, .8); }
 .main__nav-link___374l3.main__disabled___1wtjc:hover .main__tooltip___i94Mc {
@@ -113,6 +104,7 @@
         -webkit-transition: opacity 0.2s;
         transition: opacity 0.2s; }
 .main__nav-link___374l3 > div {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -125,17 +117,17 @@
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
-    height: 100%; }
+            align-items: center; }
 .main__nav-link___374l3 > div > i {
-      font-size: 44px;
-      font-size: 2.75rem;
+      font-size: 45px;
+      font-size: 2.8125rem;
       -webkit-transition: -webkit-transform 0.2s;
       transition: -webkit-transform 0.2s;
       transition: transform 0.2s;
       transition: transform 0.2s, -webkit-transform 0.2s; }
 .main__nav-link___374l3 > div span {
-      font-size: 110%; }
+      font-size: 20px;
+      font-size: 1.25rem; }
 #main__section-intro___1DF9n {
   max-width: 1024px;
   margin: 20px auto; }
